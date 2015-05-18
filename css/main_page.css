@@ -64,6 +64,7 @@ ul.navigation_back_ground a {
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    box-shadow: 1px 1px 1px ;
 }
 .container_box_state{
    float: right;
@@ -71,9 +72,10 @@ ul.navigation_back_ground a {
     margin-right: 60% ;
     width: 50px;
     text-align: center;
+    color: #FFFFFF;
 }
 .container_box_content{
-    margin: -40px 55px;
+    margin: -46px 55px;
 }
 .container_box_img_location{
     margin-top: 10px;
@@ -81,6 +83,7 @@ ul.navigation_back_ground a {
 .bnt {
     border-radius: 5px;
     background-color: #1C9AFC;
+    color: #FFFFFF;
 }
 .bnt_location{
     float: left;
@@ -92,7 +95,6 @@ ul.navigation_back_ground a {
 .container_box_location{
     float: right;
     width: 20%;
-    margin-top: -15px;
 }
 #page{
     width: 300px;
@@ -140,9 +142,20 @@ ul.navigation_back_ground a {
 .test_modified{
     margin-top: -2px;
     color: #A7A7A5;
+    font-size: small;
 }
-
-input{
-    color: #ff0000;
+::-webkit-input-placeholder {
+color:    #ffffff;
+}
+:-moz-placeholder {
+color:     #ffffff;
+    opacity:  1;
+}
+::-moz-placeholder {
+color:     #ffffff;
+    opacity:  1;
+}
+:-ms-input-placeholder {
+color:     #ffffff;
 }
 

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<style type="text/css">
+    .label_on { border:2px solid red; }
+</style>
+<form name="test">
+    <input type="checkbox" name="name">
+    <input type="checkbox" name="name">
+    <input type="checkbox" name="name">
+</form>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("input:checkbox").each(function(){
+            $(this).click(function(){
+                //alert($(this).attr('checked'));
+                $(this).toggleClass('label_on');
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
