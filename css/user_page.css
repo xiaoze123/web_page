@@ -1,0 +1,140 @@
+.container
+{
+    width: 100%;
+    height: 600px;
+    background-color: #EEEEEE;
+}
+.navigation_back_ground{
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 50px;
+    background-color: #1C9AFC;
+    color: #ffffff;
+}
+.navigation_back_ground li a {
+    color: #fff;
+}
+ul li{
+    display: inline;
+    padding-left:10%;
+}
+ul li a{
+    font-size: 2vw;
+    color:cadetblue;
+    text-decoration:none;
+}
+ul li a:hover{
+    background:black;
+}
+a:hover {
+    color: white;
+}
+.container_bottom {
+    background-color: #EEEEEE;
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+.search {
+    float: right;
+    height:40px;
+    line-height:40px;
+    overflow:hidden;
+}
+.img
+{
+    width: 22px;
+    height: 20px;
+}
+.bnt{
+    background-color:#0099cc ;
+}
+.container_box {
+    width: 65%;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.container_box_state{
+    float: right;
+    background: #ACD8ff;
+    margin-right: 50% ;
+    width: 50px;
+    text-align: center;
+}
+.container_box_content{
+    margin: -40px 55px;
+}
+.container_box_img_location{
+    margin-top: 10px;
+}
+.bnt {
+    border-radius: 5px;
+    background-color: #1C9AFC;
+}
+.bnt_location{
+    float: left;
+    margin-top: -20px;
+    margin-left: 120px;
+}
+.check_box_encapsulation{
+    margin-right: 30px;
+    margin-top: -30px;
+    float: right;
+}
+.container_box_location{
+    float: right;
+    width: 20%;
+}
+#page{
+    width: 300px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+.container_box1_img{
+    float: right;
+    height: 54px;
+    position: relative;
+    margin-top: -58px;
+}
+.container_check_box{
+    width: 10%;
+    height: 300px;
+    border: 1px;
+    float: right;
+    line-height: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.bnt1{
+    background-color: #1C9AFC;
+    width: 125px;
+    height: 30px;
+    margin-top: 10px;
+}
+.navigation_back_ground_bnt{
+    background-color: #1C9AFC;
+    border: 1px;
+}
+.underline{
+    border-bottom: 2px solid white;
+}
+.container_check_box_color{
+    background: #1C9AFC;
+}
+form{
+    display: none;
+}
+.test_modified{
+   margin-top: -2px;
+    color: #A7A7A5;
+}
