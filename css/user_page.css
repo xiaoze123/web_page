@@ -1,146 +1,199 @@
-.container
-{
+.container {
+    margin: 0;
+    padding: 0;
     width: 100%;
-    height: 600px;
+    height: 1136px;
     background-color: #EEEEEE;
 }
-.navigation_back_ground{
+
+.container_box {
+    width: 65%;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 1px 1px 1px;
+}
+
+.navigation_back_ground {
     margin: 0 auto;
     padding: 0 auto;
-    height: 50px;
     background-color: #1C9AFC;
     color: #ffffff;
 }
+
 .navigation_back_ground li a {
     color: #fff;
 }
-ul li{
+
+ul {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+ul li {
     display: inline;
-    padding-left:10%;
+    padding-left: 10%;
 }
-ul li a{
+
+ul li a {
     font-size: 2vw;
-    color:cadetblue;
-    text-decoration:none;
+    color: cadetblue;
+    text-decoration: none;
 }
-ul li a:hover{
-    background:black;
+
+ul li a:hover {
+    background: black;
 }
+
 a:hover {
     color: white;
 }
+
 .container_bottom {
     background-color: #EEEEEE;
     height: 50px;
     width: 100%;
     float: left;
 }
+
 .search {
     float: right;
-    height:40px;
-    line-height:40px;
-    overflow:hidden;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
 }
-.img
-{
+
+.navigation_back_ground_img {
     width: 22px;
     height: 20px;
 }
-.bnt{
-    background-color:#0099cc ;
+
+.bnt {
+    background-color: #0099cc;
+    border-radius: 3px;
 }
-.container_box {
-    width: 65%;
-    height: 60px;
-    background-color: #ffffff;
-    border-radius: 5px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.container_box_state{
+
+.container_box_state {
     float: right;
     background: #ACD8ff;
-    margin-right: 50% ;
+    margin-right: 30%;
     width: 50px;
     text-align: center;
     color: #FFFFFF;
+    border-radius: 3px;
 }
-.container_box_content{
-    margin: -46px 55px;
+
+.container_box_content {
+    width: 60%;
+    float: left;
+    margin-top: 15px;
+    /*margin: -46px 10%;*/
 }
-.container_box_img_location{
+
+.container_box_img {
+    margin-top: 5px;
+    float: left;
+}
+
+.container_box_img_location {
     margin-top: 10px;
 }
+
 .bnt {
     border-radius: 5px;
     background-color: #1C9AFC;
     color: #FFFFFF;
+    border: 1px;
 }
-.bnt_location{
+
+.bnt_location {
     float: left;
     margin-top: -20px;
-    margin-left: 120px;
+    margin-left: 20%;
 }
-.check_box_encapsulation{
+
+.check_box_encapsulation {
     margin-right: 30px;
-    margin-top: -30px;
+    margin-top: 60px;
     float: right;
+    display: table-cell;
+    vertical-align: middle;
 }
-.container_box_location{
+
+.container_box_location {
     float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+#page {
     width: 20%;
-}
-#page{
-    width: 300px;
     height: 20px;
     background-color: #ffffff;
     border-radius: 5px;
     margin-top: 20px;
     margin-left: 20px;
     position: relative;
+    text-align: center;
 }
-.container_box1_img{
+
+.container_box1_img {
+    width: 60px;
     float: right;
     height: 54px;
     position: relative;
     margin-top: -58px;
 }
-.container_check_box{
-    width: 10%;
-    height: 300px;
-    border: 1px;
-    float: right;
+
+.container_check_box {
     line-height: 30px;
-    margin-right: 20px;
-    margin-top: 20px;
-    background: #FFFFFF;
-    border-radius: 5px;
+    padding-left: 20px;
 }
-.bnt1{
+
+.bnt1 {
     background-color: #1C9AFC;
-    width: 125px;
+    width: 100%;
     height: 30px;
-    margin-top: 10px;
+    border-radius: 3px;
 }
-.navigation_back_ground_bnt{
+
+.navigation_back_ground_bnt {
     background-color: #1C9AFC;
     border: 1px;
 }
-.underline{
+
+.underline {
     border-bottom: 2px solid white;
 }
-.container_check_box_color{
+
+.container_check_box_color {
     background: #1C9AFC;
 }
-form{
+
+form {
     display: none;
 }
-.test_modified{
-   margin-top: -2px;
+
+.test_modified {
+    margin-top: 12px;
     color: #A7A7A5;
     font-size: small;
 }
-.chd{
-    color: #1C9AFC;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container_check_box1 {
+    width: 15%;
+    height: 300px;
+    border: 1px;
+    float: right;
+    margin-right: 20px;
+    background: #fff;
+    margin-top: 20px;
 }

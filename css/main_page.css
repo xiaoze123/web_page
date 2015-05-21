@@ -1,8 +1,15 @@
+body{
+    margin:0;
+    padding:0;
+}
+
 #page_width {
-    width: 1250px;
+    margin:0;
+    padding:0;
+    width: 100%;
 }
 .navigation {
-    width: 150px;
+    width: 15%;
     height: 650px;
     background-color:#4A4A4A;
     float:left;
@@ -13,10 +20,11 @@
     list-style: none;
 }
 ul.navigation_back_ground {
-    padding-left: 11px;
+    padding-left: 0px;
     position: absolute;
     top: 100px;
     left: 5px;
+    text-align: center;
 }
 ul.navigation_back_ground li {
     margin: 20px ;
@@ -24,7 +32,6 @@ ul.navigation_back_ground li {
 }
 .navigation_back_ground li a {
     color: #fff;
-    /*border-bottom: 1px solid white;*/
 }
 ul.navigation_back_ground a {
     text-decoration: none
@@ -32,18 +39,18 @@ ul.navigation_back_ground a {
 .container {
     background-color: #EEEEEE;
     height: 600px;
-    width: 1100px;
+    width: 85%;
     float: left;
 }
 .container_head {
     background-color: #1C9AFC;
     height: 50px;
-    width: 1100px;
+    width: 100%;
 }
 .container_bottom {
     background-color: #EEEEEE;
     height: 50px;
-    width: 1100px;
+    width: 85%;
     float: left;
 }
 .search {
@@ -52,13 +59,13 @@ ul.navigation_back_ground a {
     line-height:40px;
     overflow:hidden;
 }
-.img {
-    width: 18px;
-    height: 12px;
+.container_box_img {
+    margin-top: 5px;
+    float: left;
 }
 .container_box {
-    width: 800px;
-    height: 60px;
+    width: 70%;
+    height: 70px;
     background-color: #ffffff;
     border-radius: 5px;
     margin-top: 20px;
@@ -67,15 +74,18 @@ ul.navigation_back_ground a {
     box-shadow: 1px 1px 1px ;
 }
 .container_box_state{
-   float: right;
+    float: right;
     background: #ACD8ff;
-    margin-right: 60% ;
+    margin-right: 30%;
     width: 50px;
     text-align: center;
     color: #FFFFFF;
+    border-radius: 3px;
 }
 .container_box_content{
-    margin: -46px 55px;
+    width: 60%;
+    float: left;
+    margin-top: 15px;
 }
 .container_box_img_location{
     margin-top: 10px;
@@ -84,28 +94,43 @@ ul.navigation_back_ground a {
     border-radius: 5px;
     background-color: #1C9AFC;
     color: #FFFFFF;
+    border: 1px;
+    float: right;
+    margin-right: 15px;
 }
 .bnt_location{
     float: left;
 }
+
+.bnt1{
+    background-color: #1C9AFC;
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
 .check_box_encapsulation{
     margin-right: 30px;
     float: right;
 }
 .container_box_location{
     float: right;
-    width: 20%;
+    margin-top: 30px;
+    margin-right: 50px;
 }
 #page{
-    width: 300px;
+    width: 20%;
     height: 20px;
     background-color: #ffffff;
     border-radius: 5px;
     margin-top: 20px;
     margin-left: 20px;
     position: relative;
+    text-align: center;
 }
 .container_box1_img{
+    width: 60px;
     float: right;
     height: 54px;
     position: relative;
@@ -114,33 +139,22 @@ ul.navigation_back_ground a {
 .search1{
     height: 27px;
     border: none;
+    margin-right: 20px;
     border-bottom: 1px  solid #fff;
     outline: 0;
     background: #1C9AFC;
     background: url("../img/c.png") no-repeat right center;
 }
 .container_check_box{
-    width: 150px;
-    height: 300px;
-    border: 1px;
-    float: right;
     line-height: 30px;
-    margin-right: 20px;
-    margin-top: 20px;
-    background: #FFFFFF;
-    border-radius: 5px;
+    padding-left: 20px;
 }
-.bnt1{
-    background-color: #1C9AFC;
-    width: 150px;
-    height: 30px;
-    margin-top: 10px;
-}
+
 .underline{
     border-bottom: 2px solid white;
 }
 .test_modified{
-    margin-top: -2px;
+    margin-top: 1px;
     color: #A7A7A5;
     font-size: small;
 }
@@ -159,3 +173,18 @@ color:     #ffffff;
 color:     #ffffff;
 }
 
+.container_check_box1{
+    width: 15%;
+    height: 300px;
+    border: 1px;
+    float: right;
+    margin-right: 20px;
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+.test_modified {
+    margin-top: 12px;
+    color: #A7A7A5;
+    font-size: small;
+}
